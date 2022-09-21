@@ -215,6 +215,8 @@
 ////////////////////////////////////////////////
 /// overvier
 .overview {
+  display: flex;
+
   // .overview__heading
 
   &__heading {
@@ -223,12 +225,16 @@
   // .overview__stars
 
   &__stars {
+    margin-right: auto;
   }
 
   // .overview__icon-star
 
   &__icon-star,
   &__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary);
   }
 
   // .overview__location
